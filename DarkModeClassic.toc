@@ -1,0 +1,17 @@
+## Interface: 11401
+## Author: Johnnieboi
+## Credits: Lorti, Chordsy, and Sinope, from Lorti UI. Syiana from SUI. lks_grift from FormatFix. DahkCeles and plusmouse from the WoWUIDev Discord server.
+## Version: 2.2
+## Title: Dark Mode UI
+## Notes: Built off of LortiUI with features added in from other addons like SUI and FormatFix. Created for Classic WoW Season of Mastery.
+## SavedVariablesPerCharacter: DarkModeUIOptions, DarkModeUI_StringSize, DarkModeUI_NumSize
+## OptionalDeps: Dominos, ModernTargetFrame, FormatFix, Leatrix_Plus
+
+config.lua
+core\frames.lua
+core\extra.lua
+core\buffs.lua
+core\actionbars.lua
+core\auras.lua
+core\minimap.lua
+core\moreframes.lua
