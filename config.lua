@@ -277,12 +277,12 @@ end
 
 function f:CreateGUI()
     local Panel=CreateFrame("Frame")
-    Panel.name="Dark Mode UI";
+    Panel.name="Dark Mode Classic";
     InterfaceOptions_AddCategory(Panel);
 
     local title=Panel:CreateFontString(nil, "OVERLAY", "GameFontNormalLarge");
     title:SetPoint("TOPLEFT",12,-15);
-    title:SetText("Dark Mode UI");
+    title:SetText("Dark Mode Classic");
     title:SetFont("Fonts\\FRIZQT__.TTF", 30, "THICKOUTLINE");
 
     local ThickFramesButton = CreateFrame("CheckButton", "ThickFramesButton_Name", Panel, "ChatConfigCheckButtonTemplate")
